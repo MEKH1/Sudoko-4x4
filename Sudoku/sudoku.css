@@ -1,0 +1,117 @@
+nav {
+background-color: #073b4c;
+color: white;
+
+}
+
+.bi{
+
+    color:rgb(255, 255, 255);
+    line-height: 81px;
+    margin-left: 20px;
+   
+
+}
+
+.circle
+{
+
+
+   
+  background: #118ab2;
+  clip-path: circle(40%);
+  height: 5em;
+  width: 5em;
+
+
+
+
+}/* with css reset */
+* { box-sizing: border-box; }
+table { margin: 10px; 
+}
+tr:first-child td {
+	border-top-color: black;
+}
+tr:nth-child(2n) td {
+	border-bottom-color: black;
+}
+td {
+	border: 1px solid lightgrey;
+	height: 100px;
+	width: 100px;
+}
+td:first-child {
+	border-left-color: black;
+}
+td:nth-child(2n) {
+	border-right-color: black;
+}
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+  appearance: none;
+  margin:0;
+  font-size:50pt;
+  background-color: cornsilk;
+}
+
+input:hover {
+	background: #ffffff;
+
+}
+
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button
+ {   -webkit-appearance: none;   margin: 0; }
+
+.main 
+{
+  position: absolute;
+
+}
+.loser {
+  position: relative;
+  z-index:auto;
+  display:none;
+
+}
+.loser_window{
+display: flex;
+justify-content: center;
+border-style:solid;
+border-color: yellow;
+margin: 100px;
+margin-top: 60px;
+padding-top: 150px ;
+padding-bottom: 150px;
+background-color: rgba(128, 0, 0, 0.589);
+color: white;
+
+}
+
+
+
+.winner {
+  position: relative;
+  z-index:auto;
+  display:none;
+
+}
+.winner_window{
+display: flex;
+justify-content: center;
+border-style:solid;
+border-color: rgb(0, 63, 8);
+margin: 100px;
+margin-top: 60px;
+padding-top: 150px ;
+padding-bottom: 150px;
+background-color: rgb(5, 187, 14);
+color: white;
+
+}
